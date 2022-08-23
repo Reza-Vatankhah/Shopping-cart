@@ -18,17 +18,17 @@
 }
 
 .data h3 {
-  color: #1a73e8;
+  color: #FF9505;
   margin-bottom: 10px;
 }
 
 .data p {
-  color: #34a853;
-  font-weight: bold;
+  color: #130f07b7;
+  font-weight: 500;
 }
 
 .quantity {
-  background: orange;
+  background: #FFB627;
   width: 25px;
   height: 25px;
   display: inherit;
@@ -40,7 +40,7 @@
 }
 
 .buttonContainer button {
-  background-color: #1a73e8;
+  background-color: #FFB627;
   border: none;
   color: #fff;
   height: 30px;

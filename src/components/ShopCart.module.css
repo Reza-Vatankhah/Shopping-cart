@@ -19,13 +19,15 @@
 }
 
 .payments p {
-  color: rgb(61, 61, 61);
+  font-weight: 640;
+  color: rgb(0, 0, 0);
   margin: 20px 20px 10px;
 }
 
 .payments p span {
-  color: #1a73e8;
-  font-weight: bold;
+  color: #FFB627;
+  font-weight: 700;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .buttonContainer {
@@ -37,7 +39,7 @@
 
 .checkout {
   display: inline-block;
-  background: #34a853;
+  background: #059100;
   padding: 7px 16px;
   color: #fff;
   font-weight: bold;
@@ -52,20 +54,20 @@
 }
 
 .checkout:hover {
-  background-color: #167d32;
+  background-color: rgb(2, 236, 41);
 }
 
 .clear {
   cursor: pointer;
-  color: #34a853;
+  color: #EC0B43;
   background: none;
   border: none;
   transition: all 0.2s ease;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .clear:hover {
-  color: #167d32;
+  color: #ff3c00;
 }
 
 .complete h3 {
@@ -74,8 +76,12 @@
   font-size: 1.2rem;
 }
 
+.complete {
+  width: 100%;
+}
+
 .complete a {
-  background-color: #1a73e8;
+  background-color: #FFB627;
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -93,7 +99,7 @@
 }
 
 .complete a:hover {
-  background-color: #08499d;
+  background-color: #ffce48;
 }
 
 @media (max-width: 1200px) {
@@ -106,8 +112,8 @@
   .container {
     flex-direction: column-reverse;
     margin: 120px 80px 50px;
-    align-items: center;
   }
+
   .cartContainer {
     width: 100%;
   }

@@ -22,7 +22,7 @@ const ProductDetails = () => {
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
                 <p className={styles.description}>{description}</p>
-                <p className={styles.category}><span>Category:</span> {category}</p>
+                <p className={styles.category}><span>Category :</span>  {category}</p>
                 <div className={styles.buttonContainer}>
                     <span className={styles.price}>{price} $</span>
                     <Link to="/products">Back to Shop</Link>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { CartContext } from '../../context/CartContextProvider';
 
 // Icons
-import shopIcon from "../../assets/icons/shop.svg";
+import shopIcon from "../../assets/icons/shopping-cart.svg";
 
 // Style
 import styles from "./Navbar.module.css";
